@@ -1,4 +1,3 @@
-
 name: Deploy to GitHub Pages
 
 on:
@@ -11,6 +10,13 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
+    # Asigură-te că această secțiune de permisiuni este la nivelul jobului
+    # sau chiar la nivelul workflow-ului (după 'on:').
+    permissions: # <-- Adaugă această secțiune dacă nu o ai deja la acest nivel
+      contents: write # <-- Acest lucru este crucial pentru peaceiris/actions-gh-pages
+      pages: write
+      id-token: write # Necesare pentru acțiunile oficiale, dar e bine să le ai
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -33,3 +39,5 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+        # Asigură-te că branch-ul gh-pages este configurat în setările Pages
+        # sau specifică publish_branch: gh-pages aici explicit, dacă e cazul
