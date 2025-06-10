@@ -82,7 +82,7 @@ const HeroSection = () => {
         {/* Enhanced Main CTA Button */}
         <div className="mb-8 animate-fade-in-up" style={{ animationDelay: '1.5s' }}>
           <a 
-            href="https://swap.onedx.app/" 
+            href="https://swap.onedex.app/" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-block group"
