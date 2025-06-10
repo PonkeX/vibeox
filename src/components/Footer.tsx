@@ -4,7 +4,7 @@ import { ExternalLink, Copy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Footer = () => {
-  const contractAddress = "erd1qqqqqqqqqqqqqpgq...placeholder...contract...address";
+  const contractAddress = "VibeOX";
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -39,7 +39,7 @@ const Footer = () => {
             </h4>
             <div className="space-y-3">
               <a 
-                href="https://swap.onedx.app/" 
+                href="https://swap.onedex.app/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block"
