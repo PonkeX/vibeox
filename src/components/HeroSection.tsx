@@ -33,12 +33,12 @@ const HeroSection = () => {
         </div>
 
         {/* Token Name */}
-        <h1 className="text-6xl md:text-8xl font-fredoka font-bold mb-4 text-gradient neon-glow">
-          VIBROX
+        <h1 className="text-6xl md:text-8xl retro-title mb-4 text-gradient neon-glow">
+          VibeOX
         </h1>
 
         {/* Tagline */}
-        <p className="text-xl md:text-3xl font-fredoka font-medium mb-2 text-neon-blue neon-glow">
+        <p className="text-xl md:text-3xl font-russo font-medium mb-2 text-neon-blue neon-glow">
           Catch the Vibe. Trade the Meme.
         </p>
 
@@ -55,7 +55,7 @@ const HeroSection = () => {
             rel="noopener noreferrer"
             className="inline-block"
           >
-            <Button className="neon-button text-xl md:text-2xl px-12 py-6 font-fredoka font-bold">
+            <Button className="neon-button text-xl md:text-2xl px-12 py-6 font-russo font-bold">
               Buy on OneDex
               <ExternalLink className="ml-3 w-6 h-6" />
             </Button>

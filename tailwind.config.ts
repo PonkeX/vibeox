@@ -20,7 +20,8 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'fredoka': ['Fredoka', 'sans-serif'],
+				'orbitron': ['Orbitron', 'monospace'],
+				'russo': ['Russo One', 'sans-serif'],
 				'space': ['Space Grotesk', 'sans-serif'],
 			},
 			colors: {

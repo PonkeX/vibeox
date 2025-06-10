@@ -84,6 +84,13 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
+
+  .retro-title {
+    font-family: 'Orbitron', monospace;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
 }
 
 @layer components {

@@ -5,15 +5,15 @@ const AboutSection = () => {
   return (
     <section className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-6xl font-fredoka font-bold text-center mb-16 text-gradient neon-glow">
-          What is VIBROX?
+        <h2 className="text-4xl md:text-6xl retro-title text-center mb-16 text-gradient neon-glow">
+          What is VibeOX?
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Card 1 */}
           <div className="meme-card text-center">
             <div className="text-6xl mb-4 floating-element">🤖</div>
-            <h3 className="text-2xl font-fredoka font-bold mb-4 text-neon-purple">
+            <h3 className="text-2xl font-russo font-bold mb-4 text-neon-purple">
               AI-Powered Vibes
             </h3>
             <p className="text-gray-300 font-space">
@@ -27,7 +27,7 @@ const AboutSection = () => {
             <div className="text-6xl mb-4 floating-element" style={{ animationDelay: '2s' }}>
               🎭
             </div>
-            <h3 className="text-2xl font-fredoka font-bold mb-4 text-neon-blue">
+            <h3 className="text-2xl font-russo font-bold mb-4 text-neon-blue">
               Meme-Centric Community
             </h3>
             <p className="text-gray-300 font-space">
@@ -41,7 +41,7 @@ const AboutSection = () => {
             <div className="text-6xl mb-4 floating-element" style={{ animationDelay: '4s' }}>
               💎
             </div>
-            <h3 className="text-2xl font-fredoka font-bold mb-4 text-neon-green">
+            <h3 className="text-2xl font-russo font-bold mb-4 text-neon-green">
               Diamond Hands Energy
             </h3>
             <p className="text-gray-300 font-space">
@@ -54,8 +54,8 @@ const AboutSection = () => {
         {/* Meme quotes section */}
         <div className="mt-16 text-center">
           <div className="bg-card-gradient rounded-3xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-3xl font-fredoka font-bold mb-6 text-gradient">
-              The VIBROX Philosophy
+            <h3 className="text-3xl font-russo font-bold mb-6 text-gradient">
+              The VibeOX Philosophy
             </h3>
             <div className="space-y-4 text-lg font-space">
               <p className="text-neon-blue font-bold">"Vibe it. Trade it. Forget it." 🔥</p>

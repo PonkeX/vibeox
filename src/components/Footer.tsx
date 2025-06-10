@@ -18,8 +18,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {/* Logo & Description */}
           <div className="text-center md:text-left">
-            <h3 className="text-3xl font-fredoka font-bold text-gradient mb-4">
-              VIBROX
+            <h3 className="text-3xl retro-title text-gradient mb-4">
+              VibeOX
             </h3>
             <p className="text-gray-400 font-space mb-4">
               The memecoin that's perfectly useless and proud of it. 
@@ -34,7 +34,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="text-center">
-            <h4 className="text-xl font-fredoka font-bold text-neon-purple mb-4">
+            <h4 className="text-xl font-russo font-bold text-neon-purple mb-4">
               Quick Actions
             </h4>
             <div className="space-y-3">
@@ -65,12 +65,12 @@ const Footer = () => {
 
           {/* Social Links */}
           <div className="text-center">
-            <h4 className="text-xl font-fredoka font-bold text-neon-blue mb-4">
+            <h4 className="text-xl font-russo font-bold text-neon-blue mb-4">
               Join the Chaos
             </h4>
             <div className="space-y-3">
               <a 
-                href="https://t.me/vibrox_community" 
+                href="https://t.me/vibeox_community" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 p-3 bg-card-gradient rounded-lg hover:scale-105 transition-all duration-300"
@@ -79,7 +79,7 @@ const Footer = () => {
                 <span className="font-space">Telegram</span>
               </a>
               <a 
-                href="https://x.com/vibrox_meme" 
+                href="https://x.com/vibeox_meme" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 p-3 bg-card-gradient rounded-lg hover:scale-105 transition-all duration-300"
@@ -93,7 +93,7 @@ const Footer = () => {
 
         {/* Contract Address */}
         <div className="bg-card-gradient rounded-xl p-6 mb-8">
-          <h4 className="text-lg font-fredoka font-bold text-center mb-4 text-neon-yellow">
+          <h4 className="text-lg font-russo font-bold text-center mb-4 text-neon-yellow">
             Contract Address
           </h4>
           <div className="flex items-center justify-between bg-black/50 rounded-lg p-4">
@@ -122,7 +122,7 @@ const Footer = () => {
               <span className="text-red-500 animate-pulse">❤️</span>
               <span>and</span>
               <span className="text-neon-green">🧠</span>
-              <span>by the VIBROX community</span>
+              <span>by the VibeOX community</span>
             </div>
             
             <div className="text-xs text-gray-600 space-y-2">
@@ -134,7 +134,7 @@ const Footer = () => {
               </p>
             </div>
 
-            <p className="text-lg font-fredoka font-bold text-gradient">
+            <p className="text-lg font-russo font-bold text-gradient">
               "Stay Vibing, Stay Based" 🚀✨
             </p>
           </div>

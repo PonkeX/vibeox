@@ -12,7 +12,7 @@ const TokenomicsSection = () => {
     if (active && payload && payload.length) {
       return (
         <div className="bg-card-gradient p-3 rounded-lg border border-neon-purple/30">
-          <p className="text-white font-fredoka">{`${payload[0].name}: ${payload[0].value}%`}</p>
+          <p className="text-white font-russo">{`${payload[0].name}: ${payload[0].value}%`}</p>
         </div>
       );
     }
@@ -22,7 +22,7 @@ const TokenomicsSection = () => {
   return (
     <section className="py-20 px-4 bg-black/20">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-6xl font-fredoka font-bold text-center mb-16 text-gradient neon-glow">
+        <h2 className="text-4xl md:text-6xl retro-title text-center mb-16 text-gradient neon-glow">
           Tokenomics
         </h2>
 
@@ -30,7 +30,7 @@ const TokenomicsSection = () => {
           {/* Chart */}
           <div className="relative">
             <div className="bg-card-gradient rounded-3xl p-8">
-              <h3 className="text-2xl font-fredoka font-bold text-center mb-8 text-neon-purple">
+              <h3 className="text-2xl font-russo font-bold text-center mb-8 text-neon-purple">
                 Token Distribution
               </h3>
               <div className="h-80">
@@ -59,11 +59,11 @@ const TokenomicsSection = () => {
           {/* Details */}
           <div className="space-y-8">
             <div className="bg-card-gradient rounded-2xl p-6">
-              <h3 className="text-3xl font-fredoka font-bold mb-4 text-gradient">
+              <h3 className="text-3xl font-russo font-bold mb-4 text-gradient">
                 Total Supply
               </h3>
               <p className="text-4xl font-bold text-neon-yellow">
-                100,000,000 VIBROX
+                100,000,000 VibeOX
               </p>
               <p className="text-gray-400 mt-2 font-space">
                 Round numbers because we're simple like that 🤯
@@ -73,7 +73,7 @@ const TokenomicsSection = () => {
             <div className="space-y-4">
               <div className="bg-card-gradient rounded-xl p-4 border-l-4 border-neon-purple">
                 <div className="flex items-center justify-between mb-2">
-                  <h4 className="text-xl font-fredoka font-bold text-neon-purple">
+                  <h4 className="text-xl font-russo font-bold text-neon-purple">
                     Liquidity Pool
                   </h4>
                   <span className="text-2xl font-bold text-neon-purple">90%</span>
@@ -86,7 +86,7 @@ const TokenomicsSection = () => {
 
               <div className="bg-card-gradient rounded-xl p-4 border-l-4 border-neon-blue">
                 <div className="flex items-center justify-between mb-2">
-                  <h4 className="text-xl font-fredoka font-bold text-neon-blue">
+                  <h4 className="text-xl font-russo font-bold text-neon-blue">
                     Controlled Chaos
                   </h4>
                   <span className="text-2xl font-bold text-neon-blue">10%</span>
@@ -99,7 +99,7 @@ const TokenomicsSection = () => {
             </div>
 
             <div className="bg-gradient-to-r from-neon-purple/20 to-neon-blue/20 rounded-xl p-4 border border-neon-purple/30">
-              <p className="text-center font-fredoka font-bold text-lg text-gradient">
+              <p className="text-center font-russo font-bold text-lg text-gradient">
                 "Sir, this is a casino. But a very organized one." 🎰
               </p>
             </div>
